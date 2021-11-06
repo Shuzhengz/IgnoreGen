@@ -1,0 +1,2 @@
+# IgnoreGen
+Gitignore File generator
