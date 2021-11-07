@@ -22,9 +22,9 @@ test {
 }
 
 jar {
-    manifest {
+    manifest(({
         attributes(
                 'Main-Class': 'prj.ignore.ignoregen.Main'
         )
-    }
+    } as groovy.lang.Closure<?>))
 }

@@ -4,6 +4,9 @@
 # Log file
 *.log
 
+# Build File
+build/
+
 # BlueJ files
 *.ctxt
 
@@ -31,5 +34,5 @@ gradle/
 # Intellij IDEA
 .idea/
 
-# log files
+# Application log files
 IgnoreGen_logs.txt
