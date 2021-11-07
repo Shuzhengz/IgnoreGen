@@ -30,3 +30,6 @@ gradle/
 
 # Intellij IDEA
 .idea/
+
+# log files
+IgnoreGen_logs.txt
