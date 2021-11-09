@@ -1,5 +1,6 @@
 package prj.ignore.ignoregen;
 
+import prj.ignore.ignoregen.ui.MainRenderer;
 import prj.ignore.ignoregen.util.Logger;
 import prj.ignore.ignoregen.util.Severity;
 
@@ -36,7 +37,7 @@ public class IgnoreGen {
             }
 
             try {
-                //MainRenderer.render();  TODO create main renderer
+                MainRenderer.render();
                 Logger.log("Window Created", Severity.NORMAL);
             } catch (Exception e) {
                 Logger.log("Error creating window", Severity.FATAL);

@@ -6,4 +6,3 @@ public enum Severity {
     ERROR,
     FATAL
 }
-

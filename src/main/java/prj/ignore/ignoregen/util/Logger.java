@@ -21,7 +21,7 @@ public class Logger {
         final File logs = new File("IgnoreGen_logs.txt");
         try {
             logCreated = logs.createNewFile();
-        } catch(IOException | SecurityException e) {
+        } catch (IOException | SecurityException e) {
             showDialog("Error writing errors to log. Fatal. Possible cause: insufficient permissions.");
             System.exit(-1);
         }

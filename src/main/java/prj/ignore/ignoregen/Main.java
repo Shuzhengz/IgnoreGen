@@ -4,6 +4,7 @@ public class Main {
 
     /**
      * Main application method
+     *
      * @param args command line arguments
      * @since V0.0.1
      */
