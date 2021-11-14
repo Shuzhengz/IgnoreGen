@@ -24,7 +24,7 @@ public class MainRenderer extends JFrame {
     }
 
     public static String returnDataPath() {
-        // return the csvData variable to the main app
+        // return the .gitignore location to the main app
         return optionalSelectedFile;
     }
 
@@ -53,12 +53,12 @@ public class MainRenderer extends JFrame {
         fileSelector.addActionListener(e -> {
             //Code ran when the button is clicked
             lastButtonPressed = Button.LANGUAGE;
-            JFileChooser fc = new JFileChooser();
+            JFileChooser fileChooser = new JFileChooser();
             JFileChooser chooser = new JFileChooser();
             FileNameExtensionFilter filter = new FileNameExtensionFilter(
-                    "Git Ignore Files (*.gitignore)", "gitignore");
+                    "Git Ignore Files (*.gitignore)", ".gitignore");
             chooser.setFileFilter(filter);
-            int returnVal = chooser.showOpenDialog(fc);
+            int returnVal = chooser.showOpenDialog(fileChooser);
             if (returnVal == JFileChooser.APPROVE_OPTION) {
                 try {
                     // Try and get the file

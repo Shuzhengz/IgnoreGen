@@ -1,0 +1,33 @@
+<!-- For GitHub to read only, do not use this when compiling -->
+
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.8.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.8.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.pushing-pixels/radiance-substance -->
+    <dependency>
+        <groupId>org.pushing-pixels</groupId>
+        <artifactId>radiance-substance</artifactId>
+        <version>4.5.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.pushing-pixels/radiance-common -->
+    <dependency>
+        <groupId>org.pushing-pixels</groupId>
+        <artifactId>radiance-common</artifactId>
+        <version>5.0.0</version>
+    </dependency>
+</dependencies>
