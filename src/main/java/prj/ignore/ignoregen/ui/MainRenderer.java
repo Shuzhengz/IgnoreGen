@@ -89,7 +89,7 @@ public class MainRenderer extends JFrame {
 
         stamp.add(panel);
 
-        JButton languages = new JButton("Languages");
+        JButton languages = new JButton("languages");
         stamp.add(languages);
         languages.addActionListener(e -> lastButtonPressed = Button.LANGUAGE);
 
