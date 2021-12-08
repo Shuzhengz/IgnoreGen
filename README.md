@@ -1,5 +1,5 @@
 # IgnoreGen
-Gitignore file generator
+A graphical .gitignore file generator that looks good and is user friendly (hopefully)
 
 Work in progress
 
