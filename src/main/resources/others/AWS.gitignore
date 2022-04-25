@@ -4,6 +4,6 @@
 cdk.out/
 
 # SAM
-# AWS Serverless Application Model project
-# Ignore build folder
+## AWS Serverless Application Model project
+## Ignore build folder
 .aws-sam/
