@@ -1,7 +1,9 @@
-# CDK asset staging directory.
+# CDK
+## asset staging directory.
 .cdk.staging/
 cdk.out/
 
+# SAM
 # AWS Serverless Application Model project
 # Ignore build folder
 .aws-sam/
