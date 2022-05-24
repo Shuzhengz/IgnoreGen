@@ -7,4 +7,4 @@ The project is still work in progress, I will get back to activly developing it 
 A handy program to generate gitignore files for your project
 
 ## Requirements
-Java JRE 11 is the minimum requirement to run this program, newer versions are also supported.
+Java JRE 17 is the minimum requirement to run this program, newer versions are also supported.
