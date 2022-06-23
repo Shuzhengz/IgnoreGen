@@ -1,7 +1,7 @@
 # IgnoreGen
 A .gitignore file generator with CLI and optional GUI that looks good and is user friendly (hopefully)
 
-The project is still work in progress, I will get back to activly developing it as soon as I'm not as busy
+The project is still work in progress
 
 ## Description
 A handy program to generate gitignore files for your project
